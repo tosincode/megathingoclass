@@ -1,0 +1,25 @@
+.imagetextcontiner{
+	background-color:grey;
+	width:20%;
+	height:250px;
+
+}
+
+#loginuser{
+	color:white;
+	/*padding: 0 0px 30px 70px;*/
+	text-align:center;
+	padding-bottom:30px;
+}
+
+.myimage{
+	width:200px;
+	height:200px;
+}
+
+.boxmodel {
+  width: 300px;
+  border: 15px dotted red;
+  padding: 50px;
+  margin: 20px;
+}

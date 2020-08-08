@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Media Query</title>
+</head>
+
+<style>
+.myfirstdiv{
+	width:200px;
+	height:200px;
+	padding:0 0 0 5px;
+	background-color:grey;
+}
+
+
+/*Extra small devices (phones , 600pc and down)*/
+@media only screen and (max-width:600px){
+	.myfirstdiv{
+	 background-color:red;
+	 display:none;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+		.myfirstdiv{
+	 background-color:blue;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
+</style>
+<body>
+
+
+
+<div class="myfirstdiv">
+
+<h2>Welcome Home My Love</h2>
+</div>
+
+</body>
+</html>
